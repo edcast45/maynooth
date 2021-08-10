@@ -3,6 +3,7 @@
 :root {
   --primary-color: #011526;
   --secondary-color: #024059;
+  --tertiary-color: #03738c;
   --overlay-color: rgba(3, 115, 140, 0.4)
 }
 
@@ -22,9 +23,14 @@ body {
   width: 100%;
 }
 
+/* Overlay */
 #overlay {
   background: var(--overlay-color);
   z-index: 1;
   width: 100%;
   height: 100vh;
+}
+
+nav {
+  border-bottom: 1px solid var(--tertiary-color);
 }
