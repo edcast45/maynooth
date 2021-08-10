@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url("https://use.typekit.net/gao8nyi.css");
 
 :root {
   --primary-color: #011526;
@@ -11,7 +11,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'address-sans-pro', sans-serif;
 }
 
 body {
@@ -31,6 +31,36 @@ body {
   height: 100vh;
 }
 
+/* Border Bottom Line Color */
 nav {
   border-bottom: 1px solid var(--tertiary-color);
+}
+
+/* Brand Name */
+.brand-name-area {
+  margin-top: 140px;
+}
+
+.brand-name {
+  color: #fff;
+  font-size: 4.5rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* List of Cities */
+.cities {
+  width: 100%;
+  list-style: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+}
+
+.cities li {
+  display: inline-block;
+  margin-right: 50px;
 }
