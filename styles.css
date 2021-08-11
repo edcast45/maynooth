@@ -92,8 +92,13 @@ nav {
 }
 
 /* Border Line */
-.border-line {
+/* .border-line {
   border: 2px solid #024059;
-}
+} */
 
 /* Page2 */
+.ks1 {
+  display: block;
+  box-shadow: 2px 2px 2px #111 ;
+  margin-top: 145px;
+}
