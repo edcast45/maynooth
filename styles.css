@@ -73,7 +73,7 @@ nav {
 .br1 {
   display: block;
   box-shadow: 2px 2px 2px #111 ;
-  margin-top: 145px;
+  margin-top: 130px;
 }
 
 .left h2 {
@@ -91,6 +91,11 @@ nav {
   margin-top: 225px;
 }
 
+.left h2,
+.left p {
+  text-align: left;
+}
+
 /* Border Line */
 /* .border-line {
   border: 2px solid #024059;
@@ -100,5 +105,24 @@ nav {
 .ks1 {
   display: block;
   box-shadow: 2px 2px 2px #111 ;
-  margin-top: 145px;
+  margin-top: 130px;
+}
+
+.right2 h2 {
+  font-size: 4rem;
+}
+
+.right2 p {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.right2 {
+  width: 100px;
+  height: 325px;
+  margin-top: 225px;
+}
+
+.right2 h2, p {
+  text-align: right;
 }
