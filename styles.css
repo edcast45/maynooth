@@ -101,7 +101,7 @@ nav {
   border: 2px solid #024059;
 } */
 
-/* Page2 */
+/* Page 2 */
 .ks1 {
   display: block;
   box-shadow: 2px 2px 2px #111 ;
@@ -125,4 +125,31 @@ nav {
 
 .right2 h2, p {
   text-align: right;
+}
+
+/* Page 3 */
+.lr1 {
+  display: block;
+  box-shadow: 2px 2px 2px #111 ;
+  margin-top: 130px;
+}
+
+.left3 h2 {
+  font-size: 4rem;
+}
+
+.left3 p {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.left3 {
+  width: 100px;
+  height: 325px;
+  margin-top: 225px;
+}
+
+.left3 h2,
+.left3 p {
+  text-align: left;
 }
