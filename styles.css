@@ -161,8 +161,12 @@ nav {
   color: #fff;
 }
 
-/* .sec-1,
-.sec-2,
-.sec-3 {
-  margin: auto;
-} */
+.form-control {
+  background-color: var(--secondary-color);
+  border: 2px solid #fff;
+}
+
+.btn {
+  background-color: #fff;
+  color: var(--primary-color);
+}
