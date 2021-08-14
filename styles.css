@@ -112,7 +112,7 @@ nav {
   font-size: 4rem;
 }
 
-.right2 p {
+.right2 > p {
   font-size: 2rem;
   line-height: 2.5rem;
 }
@@ -161,7 +161,8 @@ nav {
   color: #fff;
 }
 
-.sec-1, p {
+/* .sec-1,
+.sec-2,
+.sec-3 {
   margin: auto;
-  text-align: center;
-}
+} */
