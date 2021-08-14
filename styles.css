@@ -155,3 +155,8 @@ nav {
 }
 
 /* Footer */
+#footer {
+  background-color: var(--secondary-color);
+  width: 100%;
+  color: #fff;
+}
