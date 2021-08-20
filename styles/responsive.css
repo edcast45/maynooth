@@ -1,9 +1,45 @@
 /* `xs` returns only a ruleset and no media query */
 /* ... { ... } */
+@import url("https://use.typekit.net/gao8nyi.css");
+
+:root {
+  --primary-color: #011526;
+  --secondary-color: #024059;
+  --tertiary-color: #03738c;
+  --overlay-color: rgba(3, 115, 140, 0.4)
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'address-sans-pro', sans-serif;
+}
+
+html,
+body {
+  background-image: url('../img/LR\ 4.jpg');
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Border Bottom Line Color */
+nav {
+  border-bottom: 1px solid var(--tertiary-color);
+}
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
+  /* Overlay */
+  #overlay {
+    background: var(--overlay-color);
+    z-index: 2;
+    max-width: 100%;
+    height: 100vh;
+  }
  }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
