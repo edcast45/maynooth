@@ -16,16 +16,6 @@
   font-family: 'address-sans-pro', sans-serif;
 }
 
-html,
-body {
-  background-image: url('../img/LR\ 4.jpg');
-  background-position: center left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-}
-
 /* Border Bottom Line Color */
 nav {
   border-bottom: 1px solid var(--tertiary-color);
@@ -33,13 +23,58 @@ nav {
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  html,
+  body {
+    background-image: url('../img/LR\ 4.jpg');
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+
   /* Overlay */
   #overlay {
     background: var(--overlay-color);
     z-index: 2;
-    max-width: 100%;
+    width: 100%;
     height: 100vh;
   }
+
+  /* Border Bottom Line Color */
+  nav {
+    border-bottom: 1px solid var(--tertiary-color);
+  }
+
+  /* Brand Name */
+  .brand-name-area {
+    margin-top: 200px;
+  }
+
+  .brand-name {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  /* List of Cities */
+  .cities {
+    width: 100%;
+    list-style: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.0rem;
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+  }
+
+  .cities li {
+    display: inline-block;
+    margin-right: 25px;
+  }
+
  }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
