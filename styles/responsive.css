@@ -44,8 +44,8 @@ nav {
   }
 
   .maynooth-img {
-    width: 275px;
-    height: 75px;
+    width: 175px;
+    height: 55px;
   }
 
   /* Border Bottom Line Color */
@@ -83,28 +83,30 @@ nav {
   }
 
   /* Page 1 */
-  .page1 { background-color: #fff; height: 100vh; width: 100%;}
+  /* .page1 { background-color: #fff; height: 100vh; width: 100%;}
   .page2 { background-color: #fff; height: 100vh; width: 100%;}
-  .page3 { background-color: #fff; height: 100vh; width: 100%;}
+  .page3 { background-color: #fff; height: 100vh; width: 100%;} */
 
   .br1 {
     display: block;
     box-shadow: 2px 2px 2px #111 ;
-    margin-top: 50px;
+    margin-top: 5px;
+    width: 350px;
+    height: 225px;
   }
 
   .left h2 {
-    font-size: 3.0rem;
+    font-size: 2.5rem;
   }
 
   .left p {
-    font-size: 1.5rem;
-    line-height: 2.0rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
   }
 
   .left {
-    width: 100px;
-    height: 325px;
+    width: 100%;
+    height: 175px;
     margin-top: 50px;
   }
 
