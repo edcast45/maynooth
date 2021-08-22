@@ -87,6 +87,7 @@ nav {
     display: block;
     box-shadow: 2px 2px 2px #111 ;
     margin-top: 5px;
+    margin-bottom: 50px;
     width: 350px;
     height: 225px;
   }
@@ -112,24 +113,24 @@ nav {
   }
 
   /* Page 2 */
-  .ks1 {
+  .page2 .ks1 {
     display: block;
     box-shadow: 2px 2px 2px #111 ;
-    margin-top: 50px;
+    margin-top: 5px;
     width: 350px;
     height: 225px;
   }
 
-  .right2 h2 {
+  .page2 .right2 h2 {
     font-size: 2.5rem;
   }
 
-  .right2 > p {
+  .page2 .right2 > p {
     font-size: 1rem;
     line-height: 1.25rem;
   }
 
-  .right2 {
+  .right2 .page2 {
     width: 100px;
     height: 125px;
     margin-top: 50px;
@@ -140,33 +141,51 @@ nav {
   }
 
   /* Page 3 */
-.lr1 {
-  display: block;
-  box-shadow: 2px 2px 2px #111 ;
-  margin-top: 5px;
-  width: 350px;
-  height: 225px;
-}
+  .lr1 {
+    display: block;
+    box-shadow: 2px 2px 2px #111 ;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 225px;
+  }
 
-.left3 h2 {
-  font-size: 2.5rem;
-}
+  .left3 h2 {
+    font-size: 2.5rem;
+  }
 
-.left3 p {
-  font-size: 1rem;
-  line-height: 1.25rem;
-}
+  .left3 p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
 
-.left3 {
-  width: 100px;
-  height: 150px;
-  margin-top: 50px;
-}
+  .left3 {
+    width: 100px;
+    height: 150px;
+    margin-top: 50px;
+  }
 
-.left3 h2,
-.left3 p {
-  text-align: center;
-}
+  .left3 h2,
+  .left3 p {
+    text-align: center;
+  }
+
+  /* Footer */
+  #footer {
+    background-color: var(--secondary-color);
+    width: 100%;
+    color: #fff;
+  }
+
+  .form-control {
+    background-color: var(--secondary-color);
+    border: 2px solid #fff;
+  }
+
+  .btn {
+    background-color: #fff;
+    color: var(--primary-color);
+  }
  }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
