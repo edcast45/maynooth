@@ -83,10 +83,6 @@ nav {
   }
 
   /* Page 1 */
-  /* .page1 { background-color: #fff; height: 100vh; width: 100%;}
-  .page2 { background-color: #fff; height: 100vh; width: 100%;}
-  .page3 { background-color: #fff; height: 100vh; width: 100%;} */
-
   .br1 {
     display: block;
     box-shadow: 2px 2px 2px #111 ;
@@ -114,6 +110,63 @@ nav {
   .left p {
     text-align: center;
   }
+
+  /* Page 2 */
+  .ks1 {
+    display: block;
+    box-shadow: 2px 2px 2px #111 ;
+    margin-top: 50px;
+    width: 350px;
+    height: 225px;
+  }
+
+  .right2 h2 {
+    font-size: 2.5rem;
+  }
+
+  .right2 > p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .right2 {
+    width: 100px;
+    height: 125px;
+    margin-top: 50px;
+  }
+
+  .right2 h2, p {
+    text-align: center;
+  }
+
+  /* Page 3 */
+.lr1 {
+  display: block;
+  box-shadow: 2px 2px 2px #111 ;
+  margin-top: 5px;
+  width: 350px;
+  height: 225px;
+}
+
+.left3 h2 {
+  font-size: 2.5rem;
+}
+
+.left3 p {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.left3 {
+  width: 100px;
+  height: 150px;
+  margin-top: 50px;
+}
+
+.left3 h2,
+.left3 p {
+  text-align: center;
+}
  }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
